@@ -33,7 +33,7 @@ There are 3 major changes needed to move away from Controllers.
 
 1) Query Params:
 
-Currently query param functionallity exists on both Controllers and Routes like so:
+Currently query param functionality exists on both Controllers and Routes like so:
 
 ```js
 import Controller from '@ember/controller';
@@ -101,7 +101,46 @@ export default Route.extend({
 
 2) Change the context of route templates to the output of the model hook instead of a controller:
 
+Currently when rendering a template for a route the context for that template is set to the controller. This means when referencing a property in a template: `{{firstName}}` we look at the controller for the `firstName` property.
 
+```js
+import Route from '@ember/routing/route';
+
+export default Route.extend({
+  model() {
+    return {
+      firstName: 'Travis',
+      lastName: 'Hoover'
+    }
+  }
+});
+```
+
+```hbs
+First Name: {{model.firstName}}
+Last Name: {{model.lastName}}
+
+```
+
+```js
+import Route from '@ember/routing/route';
+
+export default Route.extend({
+  model() {
+    return [{
+      name: 'Bob'
+    }, {
+      name: 'Jane'
+    }]
+  }
+});
+```
+
+```hbs
+{{#each model as |person|}}
+  Name: {{person.name}}
+{{/each}}
+```
 
 3) Remove / modify existing route methods:
 
