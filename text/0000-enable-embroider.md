@@ -156,7 +156,7 @@ The following pages will need to be modified or updated:
 ### https://cli.emberjs.com/release/
 
 - "What are addon?" section will need to be discuss V2 packages
-- "Why od we need a CLI?" section will need to be modified as the CLI itself is no longer a "packager"
+- "Why do we need a CLI?" section will need to be modified as the CLI itself is no longer a "packager"
 - "Contributing" section will need to referce Embroider's organization and repos
 
 ### https://cli.emberjs.com/release/basic-use/folder-layout/
