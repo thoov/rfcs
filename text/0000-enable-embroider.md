@@ -145,7 +145,7 @@ to
 
 ### Community Adoption
 
-Embroider relies on all addon's being able to be complient with the V2 package spec. Embroider is itself able to handle most addons by converting them to V2 but some addons are too dynamic to be automatically converted. As the community adopts Embroider, more and more community addons will need to be fully working under Embroider to ensure its successful adoption. Embroider has created a [testing package](https://github.com/embroider-build/embroider/blob/master/ADDON-AUTHOR-GUIDE.md) for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the top 100 addons according to emberobserver.com. This issue will track the adoption of @embroider/test-setup for each addon and help create a working list of which addons work under Embroider and which ones need help.
+Embroider relies on all addons being able to be compliant with the V2 package spec. Embroider is itself able to handle most addons by converting them to V2 but some addons are too dynamic to be automatically converted. As the community adopts Embroider, more and more community addons will need to be fully working under Embroider to ensure its successful adoption. Embroider has created a [testing package](https://github.com/embroider-build/embroider/blob/master/ADDON-AUTHOR-GUIDE.md) for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the top 100 addons according to emberobserver.com. This issue will track the adoption of @embroider/test-setup for each addon and help create a working list of which addons work under Embroider and which ones need help.
 
 ## How we teach this
 
