@@ -23,7 +23,7 @@ Additional information about the motiviation and key features of Embroider can b
 
 ## Detailed design
 
-This design will cover a few topics. The first discusses the explict file changes that happen for your application to use Embroider. Next it will cover how both new applications move to Embroider and how existing application will migrate to it. Lastly, it will cover some deprecated concepts that no longer apply under Embroider along with how we get community addon adoption.
+This design will cover a few topics. The first discusses the explicit file changes that happen for your application to use Embroider. Next it will cover how both new applications move to Embroider and how existing applications will migrate to it. Lastly, it will cover some deprecated concepts that no longer apply under Embroider along with how we get community addon adoption.
 
 ### Packages
 
