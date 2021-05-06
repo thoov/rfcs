@@ -103,7 +103,7 @@ Under Embroider the output paths of `/dist` are no longer predetermined. For exa
 
 #### Minifying
 
-With Embroider the responsiblity of minifing assets is a responsiblity of the 3rd stage (in the case of Webpack it is provided by the Terser Webpack plugin). Under Embroider, all production assets are minified and Terser configuration options will have to be passed as apart of [packager options](https://github.com/embroider-build/embroider#options) instead of via ember-cli-terser:
+With Embroider the responsiblity of minifing assets is a responsiblity of the 3rd stage (in the case of Webpack it is provided by the Terser Webpack plugin). Under Embroider, all production assets are minified and Terser configuration options will have to be passed as a part of [packager options](https://github.com/embroider-build/embroider#options) instead of via ember-cli-terser:
 
 ```js
 var app = new EmberApp({
