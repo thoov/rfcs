@@ -149,7 +149,7 @@ Embroider relies on all addons being able to be compliant with the V2 package sp
 
 ## How we teach this
 
-We currently discuss the existing build system at: https://cli.emberjs.com/. These guides will need to be updated to ensure they reflect any changes that not longer apply to Embroider and we should add additional sections for the new funtionalliy Embroider brings.
+We currently discuss the existing build system at: https://cli.emberjs.com/. These guides will need to be updated to ensure they reflect any changes that not longer apply to Embroider and we should add additional sections for the new functionality Embroider brings.
 
 The following pages will need to be modified or updated:
 
