@@ -35,7 +35,7 @@ The following packages will be added to package.json:
 
 ### Build File Changes:
 
-Embroider replaces the logic provided by `ember-app.js`. By default it runs in a "safe" mode that provides the best backwards compatibility guarentees but prevents some optimizations from happening. This safe mode configure is what we will ship by default:
+Embroider replaces the logic provided by `ember-app.js`. By default it runs in a "safe" mode that provides the best backwards compatibility guarantees but prevents some optimizations from happening. This safe mode configuration is what we will ship by default:
 
 ```diff
 -return app.toTree();
