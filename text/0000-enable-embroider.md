@@ -179,7 +179,7 @@ The following pages will need to be modified or updated:
 
 ## Drawbacks
 
-The largest drawback is complexity. Embroider is effectively trying to replace the foundation of your application while keeping it standing. While the end goal is a far supiorior foundation that enables amazing features such as tree shaking and code splitting, this transition does require large shifts in the broader ecosystem for it to be successful.
+The largest drawback is complexity. Embroider is effectively trying to replace the foundation of your application while keeping it standing. While the end goal is a far superior foundation that enables amazing features such as tree shaking and code splitting, this transition does require large shifts in the broader ecosystem for it to be successful.
 
 ## Alternatives
 
